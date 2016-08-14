@@ -40,7 +40,7 @@ Page {
 
         Label {
             anchors.horizontalCenter: parent.horizontalCenter
-            text: i18n.tr("v0.1")
+            text: i18n.tr("v0.1.1")
         }
 
 

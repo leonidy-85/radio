@@ -1,5 +1,5 @@
 [Desktop Entry]
-_Name=radio
+Name=radio
 Name[ru]= Радио
 Exec=qmlscene %U radio/main.qml
 Icon=radio/radio.png

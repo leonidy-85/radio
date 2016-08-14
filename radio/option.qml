@@ -8,7 +8,7 @@ Page {
     id: pageAdd
 
 
-    title: i18n.tr("Add radio")
+    title: i18n.tr("Add station")
     Flickable {
         id: flickable
 
@@ -27,7 +27,7 @@ Page {
             }
 
             Label {
-                text: i18n.tr("Write the name of the radio stipe:")
+                text: i18n.tr("Write the name of the radio of station:")
             }
 
             TextField {
@@ -39,7 +39,7 @@ Page {
                 text: i18n.tr("RockFM")
             }
             Label {
-                text: i18n.tr("Enter the ip of the radio strip:")
+                text: i18n.tr("Enter the ip of the radio of station:")
             }
 
             TextField {
@@ -66,10 +66,10 @@ Page {
             Button {
                 id: save
                 width: parent.width
-                text: i18n.tr("Save options")
+                text: i18n.tr("Save station")
                 onClicked: {
                     DB.insert(name.text, ip.text, descripcion.text)
-                    save.text = i18n.tr("Options saved")
+                    save.text = i18n.tr("Station saved")
                 }
             }
 

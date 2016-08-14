@@ -95,38 +95,37 @@ MainView {
                     Label {
                         text: (" ")
                     }
-                    Label {
-                        id: playsource
-                        font.pixelSize: units.gu(1.8)
-                        width: parent.width
-                        anchors.horizontalCenter:parent.horizontalCenter
-                        text: ""
-                    }
+//                    Label {
+//                        id: playsource
+//                        font.pixelSize: units.gu(1.8)
+//                        width: parent.width
+//                        anchors.horizontalCenter:parent.horizontalCenter
+//                        text: ""
+//                    }
 
 
-                    Label {
-                        id: volumes
-                        anchors.left: parent.left
-                    }
-                    Slider {
-                        function formatValue(v) {
-                            volumes.text='Volumes '+v.toFixed(1)
-                          //  var channel = os1.selectedIndex;
-                            //DB.lightradio(v.toFixed(0), channel)
-                            mediaPlayer.volume(v.toFixed(0))
-                            return
-                        }
-                        minimumValue: 0
-                        maximumValue: 1
-                        value: 0.3
-                        live: true
-                    }
+//                    Label {
+//                        id: volumes
+//                        anchors.left: parent.left
+//                    }
+//                    Slider {
+//                        function formatValue(v) {
+//                            volumes.text='Volumes '+v.toFixed(1)
+//                          //  var channel = os1.selectedIndex;
+//                            //DB.lightradio(v.toFixed(0), channel)
+//                            mediaPlayer.volume(v.toFixed(0))
+//                            return
+//                        }
+//                        minimumValue: 0
+//                        maximumValue: 1
+//                        value: 0.3
+//                        live: true
+//                    }
 
                     MediaPlayer {
 
                         id: mediaPlayer
                         source: ""
-                        volume : 1
                         property string title: !!metaData.title ?
                                                    qsTr("%1").arg(metaData.title) :
                                                    metaData.title
@@ -163,7 +162,7 @@ MainView {
                                 describe.text = dbprimary.get(channel).descripcion
                                 if (settings.state !== "false") {
                                     light.text=i18n.tr("Pause")
-                                    playsource.text = mediaPlayer.title
+                                   // playsource.text = mediaPlayer.title
 
                                     mediaPlayer.source = dbprimary.get(channel).ip
                                     mediaPlayer.play()
@@ -204,7 +203,7 @@ MainView {
 
         Tab {
             id: edit
-            title: i18n.tr("Edit radio")
+            title: i18n.tr("Edit stantion")
             page: Loader {
                 parent: edit
                 anchors.fill: parent

@@ -9,7 +9,7 @@
             "desktop": "radio/radio.desktop"
         }
     },
-    "version": "0.3",
+    "version": "0.1.1",
     "maintainer": "Leonid Yurasov <leonidy85@gmail.com>",
-    "framework": "ubuntu-sdk-15.04.6-papi"
+    "framework": "ubuntu-sdk-15.04.5"
 }

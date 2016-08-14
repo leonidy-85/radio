@@ -14,7 +14,7 @@ Page {
     property string txdescripcion
 
 
-    title: i18n.tr("Manage your stripes")
+    title: i18n.tr("Manage your radio station")
 
 
 

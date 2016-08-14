@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-08-14 13:58+0000\n"
+"POT-Creation-Date: 2016-08-14 21:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,138 +17,135 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/leo/Dropbox/qt/RockFM/radio/about.qml:38
+#: /home/leo/Dropbox/qt/radio/radio/about.qml:38
 msgid "Radio"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/about.qml:43
-msgid "v0.1"
+#: /home/leo/Dropbox/qt/radio/radio/about.qml:43
+msgid "v0.1.1"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/about.qml:49
+#: /home/leo/Dropbox/qt/radio/radio/about.qml:49
 msgid "leonidy85@gmail.com"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/about.qml:55
+#: /home/leo/Dropbox/qt/radio/radio/about.qml:55
 msgid "2016"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/edit.qml:10
-msgid "Manage Radio"
+#: /home/leo/Dropbox/qt/radio/radio/edit.qml:10
+msgid "Manager Radio"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/edit.qml:23
+#: /home/leo/Dropbox/qt/radio/radio/edit.qml:23
 msgid "Delete"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/edit.qml:34
+#: /home/leo/Dropbox/qt/radio/radio/edit.qml:34
 msgid "Do you want to delete the"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/edit.qml:34
+#: /home/leo/Dropbox/qt/radio/radio/edit.qml:34
 msgid "?"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/edit.qml:36
+#: /home/leo/Dropbox/qt/radio/radio/edit.qml:36
 msgid "Accept"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/edit.qml:41
+#: /home/leo/Dropbox/qt/radio/radio/edit.qml:41
 msgid "Radio has been deleted"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/edit.qml:48
+#: /home/leo/Dropbox/qt/radio/radio/edit.qml:48
 msgid "Cancel"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/edit.qml:64
+#: /home/leo/Dropbox/qt/radio/radio/edit.qml:64
 msgid "Configure your radio"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/edit.qml:82
+#: /home/leo/Dropbox/qt/radio/radio/edit.qml:82
 msgid "radio name:"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/edit.qml:106
+#: /home/leo/Dropbox/qt/radio/radio/edit.qml:106
 msgid "Description:"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/edit.qml:120
-msgid "Save changes"
+#: /home/leo/Dropbox/qt/radio/radio/edit.qml:120
+#: /home/leo/Dropbox/qt/radio/radio/option.qml:69
+msgid "Save station"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/edit.qml:124
+#: /home/leo/Dropbox/qt/radio/radio/edit.qml:124
 msgid "Changes has been saved"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/main.qml:77
+#: /home/leo/Dropbox/qt/radio/radio/main.qml:77
 msgid "Select a stantion:"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/main.qml:159
+#: /home/leo/Dropbox/qt/radio/radio/main.qml:158
 msgid "On"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/main.qml:165
+#: /home/leo/Dropbox/qt/radio/radio/main.qml:164
 msgid "Pause"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/main.qml:177
+#: /home/leo/Dropbox/qt/radio/radio/main.qml:176
 msgid "Play"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/main.qml:179
+#: /home/leo/Dropbox/qt/radio/radio/main.qml:178
 msgid "true"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/main.qml:197
+#: /home/leo/Dropbox/qt/radio/radio/main.qml:196
 msgid "Add stantion"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/main.qml:207
-msgid "Edit radio"
+#: /home/leo/Dropbox/qt/radio/radio/main.qml:206
+msgid "Edit stantion"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/main.qml:218
+#: /home/leo/Dropbox/qt/radio/radio/main.qml:217
 msgid "About"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/option.qml:11
-msgid "Add radio"
+#: /home/leo/Dropbox/qt/radio/radio/option.qml:11
+msgid "Add station"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/option.qml:30
-msgid "Write the name of the radio stipe:"
+#: /home/leo/Dropbox/qt/radio/radio/option.qml:30
+msgid "Write the name of the radio of station:"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/option.qml:39
+#: /home/leo/Dropbox/qt/radio/radio/option.qml:39
 msgid "RockFM"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/option.qml:42
-msgid "Enter the ip of the radio strip:"
+#: /home/leo/Dropbox/qt/radio/radio/option.qml:42
+msgid "Enter the ip of the radio of station:"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/option.qml:51
+#: /home/leo/Dropbox/qt/radio/radio/option.qml:51
 msgid "http://nashe1.hostingradio.ru/rock-128.mp3"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/option.qml:56
+#: /home/leo/Dropbox/qt/radio/radio/option.qml:56
 msgid "Write a short description:"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/option.qml:69
-msgid "Save options"
+#: /home/leo/Dropbox/qt/radio/radio/option.qml:72
+msgid "Station saved"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/option.qml:72
-msgid "Options saved"
+#: /home/leo/Dropbox/qt/radio/radio/radio_add.qml:17
+msgid "Manage your radio station"
 msgstr ""
 
-#: /home/leo/Dropbox/qt/RockFM/radio/radio_add.qml:17
-msgid "Manage your stripes"
-msgstr ""
-
-#: /home/leo/Dropbox/qt/RockFM/radio/radio_add.qml:65
+#: /home/leo/Dropbox/qt/radio/radio/radio_add.qml:65
 msgid "Edit"
 msgstr ""

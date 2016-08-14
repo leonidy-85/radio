@@ -7,7 +7,7 @@ import "db.js"  as DB
 
 Page {
     id: pageradio
-    title: i18n.tr("Manage Radio")
+    title: i18n.tr("Manager Radio")
 
 
     property string name
@@ -117,7 +117,7 @@ Page {
             Button {
                 id: save
                 width: parent.width
-                text: i18n.tr("Save changes")
+                text: i18n.tr("Save station")
                 onClicked: {
                     DB.del(name)
                     DB.insert(names.text, ips.text, txdescripcion.text)
