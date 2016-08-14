@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=radio
+Name[ru]= Радио
+Exec=qmlscene %U radio/main.qml
+Icon=radio/radio.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true

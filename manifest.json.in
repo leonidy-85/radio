@@ -1,0 +1,15 @@
+{
+    "name": "radio",
+    "description": "radio",
+    "architecture": "@CLICK_ARCH@",
+    "title": "radio",
+    "hooks": {
+        "radio": {
+            "apparmor": "radio/radio.apparmor",
+            "desktop": "radio/radio.desktop"
+        }
+    },
+    "version": "0.3",
+    "maintainer": "Leonid Yurasov <leonidy85@gmail.com>",
+    "framework": "ubuntu-sdk-15.04.6-papi"
+}
